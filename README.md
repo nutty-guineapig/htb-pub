@@ -6,4 +6,4 @@ notes are inconsistent
 
 ## Autopwns
 
-`<TBD> - Boxes are not retired yet
+`<TBD>` - Boxes are not retired yet
