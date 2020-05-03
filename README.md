@@ -14,6 +14,8 @@ scrap notes, scripts, etc.
 | Mango | Medium | 26/10/2019 | Blind noSQL Injection |
 
 ## Autopwns
+Scripts that will automate exploit of the box and pull user/root flags, etc.
+
 | Box Name | HTB Difficulty | Release Date | Comments |
 |----|-----|----|----|
 | Quick | Hard  |  25/04/2020 | `<TBD>` - Boxes are not retired yet |
