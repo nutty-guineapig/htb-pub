@@ -21,3 +21,4 @@ Scripts that will automate exploit of the box and pull user/root flags, etc.
 | Quick | Hard  |  25/04/2020 | `<TBD>` - Boxes are not retired yet |
 | Travel | Hard |  5/17/2020 | `<TBD>` - Box is not retired yet |
 | Cybernetics | Prolab | 3/31/2020 | `<TBD>` - Lab is not retired yet|
+| Dyplesher | Insane | 5/22/2020 | `<TBD>` - Box is not retired yet |
