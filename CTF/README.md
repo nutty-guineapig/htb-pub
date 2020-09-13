@@ -1,5 +1,7 @@
 CTF's login page is vulnerable to Blind LDAP injection, specifically on the inputUsername parameter
 
+## blindldapinjector.py
+
 The form takes in two parameters - a username, and a OTP
 
 Our objective here was to:
@@ -48,7 +50,7 @@ To use:
  
  ![cn enum](images/cn-discovery.PNG?raw=true "Blind Injection - Enumeration of CN")
 
-Loginscript.py 
+## Loginscript.py 
 
 -after logging in we get a message 
 "User must be member of root or adm group and have a registered token to issue commands on this server"
