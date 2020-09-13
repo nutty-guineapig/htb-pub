@@ -12,15 +12,18 @@ scrap notes, scripts, etc.
 | [Chainsaw](https://github.com/nutty-guineapig/htb-pub/tree/master/chainsaw) | Hard | 15/06/2019| ETH Smartcontract |
 | [Zetta](https://github.com/nutty-guineapig/htb-pub/tree/master/zetta) | Hard | 31/08/2019 | ipv6 address enum | 
 | [Mango](https://github.com/nutty-guineapig/htb-pub/tree/master/mango) | Medium | 26/10/2019 | Blind noSQL Injection |
+| [Quick](https://github.com/nutty-guineapig/htb-pub/tree/master/quick) | Hard  |  25/04/2020 | HTTP3/QUIC, ESIGate Injection, Race Condition |
+| [Travel](https://github.com/nutty-guineapig/htb-pub/tree/master/travel) | Hard |  5/17/2020 | SimplePie, SSRF on Memcached, LDAP |
+
 
 ## Autopwns
 Scripts that will automate exploit of the box and pull user/root flags, etc.
 
 | Box Name | HTB Difficulty | Release Date | Comments |
 |----|-----|----|----|
-| Quick | Hard  |  25/04/2020 | `<TBD>` - Boxes are not retired yet |
-| Travel | Hard |  5/17/2020 | `<TBD>` - Box is not retired yet |
 | Cybernetics | Prolab | 3/31/2020 | `<TBD>` - Lab is not retired yet|
 | Dyplesher | Insane | 5/22/2020 | `<TBD>` - Box is not retired yet |
 | SneakyMailer | Medium | 7/11/2020 | `<TBD>` - Box is not Retired yet |
 | Unbalanced | Hard | 8/01/2020 | `<TBD>` - Box is not Retired yet |
+| Feline | Hard | 8/29/2020 | `<TBD>` - Box is not Retired yet |
+
