@@ -4,7 +4,7 @@ hackthebox.eu - solutions etc if box is retired
 scrap notes, scripts, etc.
 
 | Box Name  | HTB Difficulty  | Original Release Date | Comments| Autopwn? |
-|------|-----|-----|-----|
+|------|-----|-----|-----|-----|
 | [CTF](https://github.com/nutty-guineapig/htb-pub/tree/master/CTF) | Insane | 02/02/2019 |Blind LDAP Injection & OTP Bypass | No |
 | [Arkham](https://github.com/nutty-guineapig/htb-pub/tree/master/arkham) | Medium | 16/03/2019 | Java deserialization (Apache myFaces)| No |
 | [Kryptos](https://github.com/nutty-guineapig/htb-pub/tree/master/kryptos) | Insane | 06/04/2019 | VIM encryption blowfish cracker, other scripts| No |
