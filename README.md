@@ -27,3 +27,7 @@ Scripts that will automate exploit of the box and pull user/root flags, etc.
 | Unbalanced | Hard | 08/01/2020 | `<TBD>` - Box is not Retired yet |
 | Feline | Hard | 08/29/2020 | `<TBD>` - Box is not Retired yet |
 
+## Scripts
+| Box Name | HTB Difficulty | Release Date | Comments |
+|----|-----|----|----|
+| Akerva | Fortress | 03/31/2020 | `<TBD>` - Fortress is not retired yet|
