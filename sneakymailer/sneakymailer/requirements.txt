@@ -1,0 +1,7 @@
+colorama==0.4.3
+pwntools==4.2.1
+coloredlogs==14.0
+IMAPClient==2.1.0
+requests==2.24.0
+beautifulsoup4==4.9.1
+pwn==1.0

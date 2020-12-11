@@ -1,0 +1,8 @@
+FROM alpine:latest
+
+RUN apk add python3 py3-pip python3-dev libressl-dev libffi-dev capstone alpine-sdk
+RUN pip3 install pwntools
+
+COPY ./sneakymailer/. /root/sneakymailer/
+COPY ./sneakymailer/.pypirc  /root/.pypirc
+RUN pip3 install -r /root/sneakymailer/requirements.txt
