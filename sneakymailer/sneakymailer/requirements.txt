@@ -1,5 +1,5 @@
 colorama==0.4.3
-pwntools==4.2.1
+pwntools==4.3.1
 coloredlogs==14.0
 IMAPClient==2.1.0
 requests==2.24.0
