@@ -14,7 +14,8 @@ scrap notes, scripts, etc.
 | [Mango](https://github.com/nutty-guineapig/htb-pub/tree/master/mango) | Medium | 10/26/2019 | Blind noSQL Injection | No |
 | [Quick](https://github.com/nutty-guineapig/htb-pub/tree/master/quick) | Hard  |  04/25/2020 | HTTP3/QUIC, ESIGate Injection, Race Condition | Yes |
 | [Travel](https://github.com/nutty-guineapig/htb-pub/tree/master/travel) | Hard |  05/17/2020 | SimplePie, SSRF on Memcached, LDAP | Yes |
-
+| [SneakyMailer](https://github.com/nutty-guineapig/htb-pub/tree/master/sneakymailer) | Medium |  7/11/2020 | IMAP, pypi, pip | Yes |
+| [Unbalanced](https://github.com/nutty-guineapig/htb-pub/tree/master/unbalanced) | Hard |  08/01/2020 | rsync, squid, XPATH injection, pihole cve | Yes |
 
 ## Autopwns
 Scripts that will automate exploit of the box and pull user/root flags, etc.
