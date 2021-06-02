@@ -16,6 +16,9 @@ scrap notes, scripts, etc.
 | [Travel](https://github.com/nutty-guineapig/htb-pub/tree/master/travel) | Hard |  05/17/2020 | SimplePie, SSRF on Memcached, LDAP | Yes |
 | [SneakyMailer](https://github.com/nutty-guineapig/htb-pub/tree/master/sneakymailer) | Medium |  7/11/2020 | IMAP, pypi, pip | Yes |
 | [Unbalanced](https://github.com/nutty-guineapig/htb-pub/tree/master/unbalanced) | Hard |  08/01/2020 | rsync, squid, XPATH injection, pihole cve | Yes |
+| [Feline](https://github.com/nutty-guineapig/htb-pub/tree/master/feline) | Hard | 08/29/2020 | Moved |
+| [Bucket](https://github.com/nutty-guineapig/htb-pub/tree/master/bucket)| Medium | 10/17/2020 | s3 buckets | 
+| [Laser](https://github.com/nutty-guineapig/htb-pub/tree/master/laser)| Hard | ?? | Moved | 
 
 ## Autopwns
 Scripts that will automate exploit of the box and pull user/root flags, etc.
@@ -24,10 +27,6 @@ Scripts that will automate exploit of the box and pull user/root flags, etc.
 |----|-----|----|----|
 | Cybernetics | Prolab | 03/31/2020 | `<TBD>` - Lab is not retired yet|
 | Dyplesher | Insane | 05/22/2020 | `<TBD>` - Box is not retired yet |
-| SneakyMailer | Medium | 07/11/2020 | `<TBD>` - Box is not Retired yet |
-| Unbalanced | Hard | 08/01/2020 | `<TBD>` - Box is not Retired yet |
-| Feline | Hard | 08/29/2020 | `<TBD>` - Box is not Retired yet |
-| Bucket| Medium | 10/17/2020 | `<TBD>` - Box is not Retired yet | 
 
 ## Scripts
 | Box Name | HTB Difficulty | Release Date | Comments |
